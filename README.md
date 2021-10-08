@@ -53,7 +53,36 @@ class Example extends Component {
 }
 ```
 
+## Github: clone repo project
+
+[repo Github](https://github.com/Maxime-Moilliet/mllt-datatable)
+
+```bash
+git clone https://github.com/Maxime-Moilliet/mllt-datatable
+```
+
+```bash
+cd ./mllt-database
+```
+
+### Launch example project
+
+```bash
+cd ./mllt-database/example
+```
+
+```bash
+npm start
+yarn start
+```
+
+### Launch test example project
+
+```bash
+npm test
+yarn test
+```
+
 ## License
 
 MIT © [maxime_mllt](https://github.com/maxime_mllt)
-
