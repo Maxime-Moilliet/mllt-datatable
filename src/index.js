@@ -1,3 +1,3 @@
-import Datatable from "./Datatable"
+import DataTable from "./DataTable"
 
-export default Datatable
+export default DataTable
