@@ -24,7 +24,7 @@ const labelsUsers = [
 ]
 
 const App = () => {
-  return <main style={{ margin: '2rem'}}>
+  return <main style={{ margin: '2%'}}>
     <DataTable labels={labelsEmployees} data={employeesData} itemsPerPage={10}/>
     <br />
     <br />

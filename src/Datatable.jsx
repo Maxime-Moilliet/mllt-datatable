@@ -146,24 +146,24 @@ const DataTable = ({ data, itemsPerPage, labels }) => {
                                 className={styles.dataTable__label}
                                 key={index}
                                 onClick={() => sortHandler(col.sortKey, sortByKey === col.sortKey ? order === 'asc' ? 'desc' : 'asc' : 'asc')} >
-                            {col.label}
+                            <p>{col.label}
                             {sortByKey === col.sortKey &&
                                 order === 'asc'
                                     ? <span className={styles.dataTable__label_icon_up}><i className="fas fa-sort-up"></i></span>
                                     : <span className={styles.dataTable__label_icon_down}><i className="fas fa-sort-down"></i></span>
-                            }
+                            }</p>
                             </th>
                         ))}
                     </tr>
                 </thead>
                 <tbody>
                     {slicedData.map((el, idx) => (
-                        <tr role="listitem" className={styles.dataTable__body} key={idx}>
+                        <tr role="tablist" className={styles.dataTable__body} key={idx}>
                             {Object.values(el).map((key, idx) => {
                                 if(isDate(key) !== false) { 
-                                    return <td key={idx} className={styles.dataTable__body_td}>{formatDate(key)}</td>
+                                    return <td role="tab" key={idx} className={styles.dataTable__body_td}>{formatDate(key)}</td>
                                 } else {
-                                    return <td key={idx} className={styles.dataTable__body_td}>{key}</td>
+                                    return <td role="tab" key={idx} className={styles.dataTable__body_td}>{key}</td>
                                 }    
                             })}
                         </tr>
