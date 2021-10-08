@@ -14,7 +14,6 @@
 
 ```bash
 npm install --save mllt-datatable
-yarn add --save mllt-datatable
 ```
 
 ## Usage
@@ -73,14 +72,12 @@ cd ./mllt-database/example
 
 ```bash
 npm start
-yarn start
 ```
 
 ### Launch test example project
 
 ```bash
 npm test
-yarn test
 ```
 
 ## License
