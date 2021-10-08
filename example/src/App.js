@@ -5,7 +5,7 @@ import 'mllt-datatable/dist/index.css'
 
 import { employeesData, usersData } from './data'
 
-const labelsEmployees = [
+export const labelsEmployees = [
   { label: 'First name', sortKey: 'firstName' },
   { label: 'Last name', sortKey: 'lastName' },
   { label: 'Start date', sortKey: 'dateStart' },
@@ -17,7 +17,7 @@ const labelsEmployees = [
   { label: 'Zip code', sortKey: 'zipCode' }
 ]
 
-const labelsUsers = [
+export const labelsUsers = [
   { label: 'Name', sortKey: 'name' },
   { label: 'Email', sortKey: 'email' },
   { label: 'Password', sortKey: 'password' }

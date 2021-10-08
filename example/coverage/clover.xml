@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1633706321587" clover="3.2.0">
+  <project timestamp="1633706321587" name="All files">
+    <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="5" coveredelements="3" complexity="0" loc="4" ncloc="4" packages="1" files="2" classes="2"/>
+    <file name="App.js" path="C:\Users\mlltm\OneDrive\Bureau\mllt-datatable\mllt-datatable\example\src\App.js">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+    </file>
+    <file name="setuptTests.js" path="C:\Users\mlltm\OneDrive\Bureau\mllt-datatable\mllt-datatable\example\src\setuptTests.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+  </project>
+</coverage>
