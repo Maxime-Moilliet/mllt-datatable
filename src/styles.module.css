@@ -79,11 +79,11 @@ body {
 }
 
 .dataTable__label_icon_up {
-  top: 14px;
+  top: 9px;
 }
 
 .dataTable__label_icon_down {
-  top: 8px;
+  top: 10px;
 }
 
 .dataTable__body_tr {
@@ -91,6 +91,7 @@ body {
 }
 
 .dataTable__body_td {
+  text-align: left;
   padding: .6rem .8rem;
   font-size: .85rem;
   border-bottom: 1px solid #d7d9db;
