@@ -149,7 +149,7 @@ const DataTable = ({ data, itemsPerPage, labels }) => {
                             <p>{col.label}
                             {sortByKey === col.sortKey &&
                                 order === 'asc'
-                                    ? <span className={styles.dataTable__label_icon_up}><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 320 208" fill="none">
+                                    ? <span className={styles.dataTable__label_icon_up}><svg xmlns="http://www.w3.org/2000/svg" width="320" height="208" viewBox="0 0 320 208" fill="none">
                                     <path d="M177 7.70014L313 143.7C322.4 153.1 322.4 168.3 313 177.6L290.4 200.2C281 209.6 265.8 209.6 256.5 200.2L160 103.9L63.6002 200.3C54.2002 209.7 39.0002 209.7 29.7002 200.3L7.0002 177.7C-2.3998 168.3 -2.3998 153.1 7.0002 143.8L143 7.80015C152.4 -1.69985 167.6 -1.69986 177 7.70014V7.70014Z" fill="black"/>
                                     </svg></span>
                                     : <span className={styles.dataTable__label_icon_down}><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 320 208" fill="none">
