@@ -64,7 +64,7 @@ body {
 .dataTable__label {
   text-align: left;
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 16px;
   user-select: none;
   padding: .6rem .8rem;
   cursor: pointer;
@@ -75,6 +75,7 @@ body {
 .dataTable__label_icon_up,
 .dataTable__label_icon_down {
   margin-left: 5px;
+  position: absolute;
 }
 
 .dataTable__body_tr {
