@@ -75,15 +75,6 @@ body {
 .dataTable__label_icon_up,
 .dataTable__label_icon_down {
   margin-left: 5px;
-  position: absolute;
-}
-
-.dataTable__label_icon_up {
-  top: 9px;
-}
-
-.dataTable__label_icon_down {
-  top: 10px;
 }
 
 .dataTable__body_tr {

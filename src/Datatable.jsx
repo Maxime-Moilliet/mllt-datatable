@@ -148,13 +148,15 @@ const DataTable = ({ data, itemsPerPage, labels }) => {
                                 onClick={() => sortHandler(col.sortKey, sortByKey === col.sortKey ? order === 'asc' ? 'desc' : 'asc' : 'asc')} >
                             <p>{col.label}
                             {sortByKey === col.sortKey &&
-                                order === 'asc'
-                                    ? <span className={styles.dataTable__label_icon_up}><svg xmlns="http://www.w3.org/2000/svg" width="320" height="208" viewBox="0 0 320 208" fill="none">
+                            <span>
+                                {order === 'asc'
+                                    ? <span className={styles.dataTable__label_icon_up}><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 320 208" fill="none">
                                     <path d="M177 7.70014L313 143.7C322.4 153.1 322.4 168.3 313 177.6L290.4 200.2C281 209.6 265.8 209.6 256.5 200.2L160 103.9L63.6002 200.3C54.2002 209.7 39.0002 209.7 29.7002 200.3L7.0002 177.7C-2.3998 168.3 -2.3998 153.1 7.0002 143.8L143 7.80015C152.4 -1.69985 167.6 -1.69986 177 7.70014V7.70014Z" fill="black"/>
                                     </svg></span>
                                     : <span className={styles.dataTable__label_icon_down}><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 320 208" fill="none">
                                     <path d="M143 200.3L7.0002 64.3C-2.3998 54.9 -2.3998 39.7 7.0002 30.4L29.6002 7.8C39.0002 -1.6 54.2002 -1.6 63.5002 7.8L159.9 104.2L256.3 7.8C265.7 -1.6 280.9 -1.6 290.2 7.8L312.8 30.4C322.2 39.8 322.2 55 312.8 64.3L176.8 200.3C167.6 209.7 152.4 209.7 143 200.3V200.3Z" fill="black"/>
-                                    </svg></span>
+                                    </svg></span>}
+                                </span>
                             }</p>
                             </th>
                         ))}
